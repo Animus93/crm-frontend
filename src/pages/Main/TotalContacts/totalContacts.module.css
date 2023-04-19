@@ -44,10 +44,14 @@
   justify-self: center;
   align-self: center;
   font-weight: bold;
+  cursor: pointer;
 }
 .pagenation::after {
   content: ">";
 }
 .pagenation::before {
   content: "<";
+}
+.pagenation:hover {
+content: 'asdasdasds';
 }
