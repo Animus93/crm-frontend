@@ -1,0 +1,92 @@
+.content {
+  height: 100%;
+  display: grid;
+  grid-template-rows: 140px auto 50px;
+  grid-template-columns: 226px;
+}
+.logo {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 77px;
+  justify-self: center;
+  text-align: center;
+  color: #000000;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.navigate {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.iconTotal {
+  width: 26px;
+  height: 32px;
+  padding-right: 10px;
+  background: url("../../img/total.svg");
+  background-repeat: no-repeat;
+}
+.iconCalendar {
+  width: 26px;
+  height: 32px;
+  padding-right: 10px;
+  background: url("../../img/calendar.svg");
+  background-repeat: no-repeat;
+}
+.iconReport {
+  width: 26px;
+  height: 32px;
+  padding-right: 10px;
+  background: url("../../img/reportr.svg");
+  background-repeat: no-repeat;
+}
+.navigateItem {
+  display: flex;
+  padding-left: 30px;
+  align-items: center;
+  height: 54px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  transition: background-color 0.7s ease;
+}
+.navigateItem:hover {
+  background: linear-gradient(to right, #efc460, 20px, #fbf2db);
+}
+.logOutIcon {
+  margin-top: 3px;
+  width: 25px;
+  height: 25px;
+  background: url("../../img/logOut.svg");
+  background-repeat: no-repeat;
+}
+.logOut {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  border-top: 2px solid rgba(0, 0, 0, 0.192);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  opacity: 0.8;
+  transition: background-color 0.4s ease;
+  cursor: pointer;
+}
+.logOut:hover {
+  background-color: rgb(209, 209, 209);
+}

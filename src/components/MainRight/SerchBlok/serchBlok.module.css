@@ -1,0 +1,80 @@
+.content {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1500px;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+.inputWrapper {
+  display: flex;
+  margin-left: 20px;
+}
+.input {
+  width: 35vw;
+  min-width:100px;
+  max-width: 522px;
+  height: 50px;
+  background-color: #F2F2F2;
+  font-size: 26px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  overflow: hidden;
+}
+.icon {
+  width: 50px;
+  height: 50px;
+  background: url('../../../img/search.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #F2F2F2;
+
+}
+.img {
+  width: 66px;
+  height: 70px;
+  background: url('../../../img/avatar.svg');
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 80.5px;
+}
+.userInfo {
+  display: flex;
+  justify-content: center;
+  width: 245px;
+  height: 70px;
+  display: flex;
+}
+.text {
+  padding-left: 15px;
+}
+.userName {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  /* identical to box height */
+
+  color: #000000;
+
+  opacity: 0.8;
+}
+
+.userTitle {
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #000000;
+
+  opacity: 0.7;
+}

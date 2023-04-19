@@ -1,0 +1,20 @@
+.wrapper {
+  grid-column: 3/-1;
+  grid-row: 1/2;
+}
+.addBtn {
+  color: aliceblue;
+  font-weight: bold;
+  width: 141px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background: #edbc4a;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: background-color 0.7s ease;
+  cursor: pointer;
+}
+.addBtn:hover {
+  background: #000000;
+}

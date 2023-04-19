@@ -1,0 +1,46 @@
+.modal {
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  /* margin: auto; */
+  width: 500px;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.356);
+  border-radius: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.label {
+  /* align-self: center; */
+}
+.input {
+  align-self: center;
+  width: 80%;
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.sumbit {
+  align-self: center;
+  color: aliceblue;
+  font-weight: bold;
+  width: 141px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background: #edbc4a;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: background-color 0.7s ease;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 500px) {
+  .modal {
+    left: 10%;
+    width: 80%;
+    padding: 0;
+  }
+}

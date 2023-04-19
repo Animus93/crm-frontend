@@ -1,0 +1,61 @@
+.tableHead {
+  background-color: #ffffff;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 15px;
+  color: #000000;
+}
+.tableHeadItemIcon {
+  width: 10px;
+  height: 10px;
+}
+.tableHeadItem {
+  width: fit-content;
+  /* padding-right: 10px; */
+  /* padding-top: 10px; */
+  padding: 10px;
+  margin: 0;
+  transition-duration: 0.5s;
+  cursor: pointer;
+  position: relative;
+  font-size: 14px;
+}
+.tableHeadItem::after {
+  content: "";
+  position: absolute;
+  top: 25%;
+  left: -5px;
+  height: 50%;
+  border-left: 2px solid black;
+}
+.tableHeadItem:hover {
+  color: #818181;
+}
+.tableRow {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 78px;
+}
+.tableRowItem {
+  background-color: #ffffff;
+  width: 150px;
+  height: 30px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #000000;
+  opacity: 0.8;
+}
+.tableRowItem:last-child {
+  text-align: center;
+}
+.icons:first-child {
+  margin-right: 25px;
+}
+.icons {
+  width: 17px;
+  cursor: pointer;
+}
