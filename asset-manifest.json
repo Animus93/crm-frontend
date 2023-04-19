@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/crm-frontend/static/css/main.1c871d17.css",
+    "main.css": "/crm-frontend/static/css/main.401eb1d4.css",
     "main.js": "/crm-frontend/static/js/main.1f81c643.js",
     "static/media/avatar.svg": "/crm-frontend/static/media/avatar.eec1eccc3f896445f57f.svg",
     "static/media/delete.svg": "/crm-frontend/static/media/delete.9c085a4d992d5c942c2b1893e91141d2.svg",
@@ -12,11 +12,11 @@
     "static/media/calendar.svg": "/crm-frontend/static/media/calendar.9418248c1cda792714c1.svg",
     "static/media/search.svg": "/crm-frontend/static/media/search.ff44542753e182221e17.svg",
     "static/media/filter.svg": "/crm-frontend/static/media/filter.21927c55757e8daae8fa4378ea7231a4.svg",
-    "main.1c871d17.css.map": "/crm-frontend/static/css/main.1c871d17.css.map",
+    "main.401eb1d4.css.map": "/crm-frontend/static/css/main.401eb1d4.css.map",
     "main.1f81c643.js.map": "/crm-frontend/static/js/main.1f81c643.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c871d17.css",
+    "static/css/main.401eb1d4.css",
     "static/js/main.1f81c643.js"
   ]
 }
